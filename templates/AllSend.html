@@ -6,7 +6,7 @@
           <label class="control-label"></label>
           <div class="controls">
             <div class="textarea">
-                  <textarea name="text" style="width:99%;height:270px"></textarea>
+                  <textarea name="text" id="text" style="width:99%;height:270px"></textarea>
             </div>
           </div>
         </div>
@@ -15,7 +15,7 @@
 
           <!-- Button -->
           <div class="controls">
-            <button class="btn btn-success">群发</button>
+            <button class="btn btn-success" onclick="jQuery('#text').text('')">群发</button>
           </div>
         </div>
     </fieldset>
